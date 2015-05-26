@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+
+  get 'shapes/hello_rails'
+  get 'shapes/image'
+  get 'shapes/clock'
+  get 'shapes/random_shape'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
